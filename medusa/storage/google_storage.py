@@ -31,6 +31,7 @@ from medusa.storage.google_cloud_storage.gsutil import GSUtil
 
 GSUTIL_MAX_FILES_PER_CHUNK = 64
 
+
 class GoogleStorage(AbstractStorage):
 
     def connect_storage(self):
